@@ -1,0 +1,96 @@
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\KR.exe.config
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\KR.exe
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\KR.pdb
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.csproj.AssemblyReference.cache
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.Properties.Resources.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.csproj.GenerateResource.cache
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.csproj.CoreCompileInputs.cache
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.exe
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.pdb
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.GeneralMenu.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\System.Memory.dll
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\System.Buffers.dll
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\MySql.Data.xml
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.Client.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.csproj.Up2Date
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.Add_Client.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.Worked.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.Add_Worked.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.AD.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.Add_Ad.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.TypeFormat.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.TypeProject.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.Service.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.Add_Service.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.Project.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.Add_project.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.Payment.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.ProkectWorked.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.SearchDate.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.SearchStatus.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.SearchPayment.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.SearchClient.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.ReportForm.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Miracle\Desktop\курсовая\KR\KR\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.web.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.applicationsClients.resources
+C:\Users\Miracle\Desktop\курсовая\KR\KR\obj\Debug\KR.SelectEmployeeForm.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\KR.exe.config
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\KR.exe
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\KR.pdb
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\System.Memory.dll
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\System.Buffers.dll
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\bin\Debug\MySql.Data.xml
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.csproj.AssemblyReference.cache
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.AD.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.Add_Ad.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.Add_Client.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.Add_project.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.Add_Service.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.Add_Worked.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.applicationsClients.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.Client.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.GeneralMenu.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.Payment.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.Project.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.ProkectWorked.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.Properties.Resources.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.ReportForm.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.SearchClient.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.SearchDate.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.SearchPayment.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.SearchStatus.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.SelectEmployeeForm.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.Service.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.TypeFormat.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.TypeProject.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.web.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.Worked.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.csproj.GenerateResource.cache
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.csproj.CoreCompileInputs.cache
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.csproj.Up2Date
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.exe
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.pdb
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.querySelection.resources
+C:\Users\Miracle\Desktop\дипломная работа\KR\KR\obj\Debug\KR.test.resources

@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{89737A27-A918-453E-A871-A03F3B655105}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KR</RootNamespace>
+    <AssemblyName>KR</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>nCoQ8McrQSCykHKaIt3w6Q %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.2849.39, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.2849.39\lib\net462\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.2849.39, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.2849.39\lib\net462\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.2849.39, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.2849.39\lib\net462\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector NET 8.3.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AD.Designer.cs">
+      <DependentUpon>AD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Ad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Ad.Designer.cs">
+      <DependentUpon>Add_Ad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Client.Designer.cs">
+      <DependentUpon>Add_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_project.Designer.cs">
+      <DependentUpon>Add_project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Service.Designer.cs">
+      <DependentUpon>Add_Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Worked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Worked.Designer.cs">
+      <DependentUpon>Add_Worked.cs</DependentUpon>
+    </Compile>
+    <Compile Include="applicationsClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="applicationsClients.Designer.cs">
+      <DependentUpon>applicationsClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BDDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client.Designer.cs">
+      <DependentUpon>Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase.cs" />
+    <Compile Include="GeneralMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralMenu.Designer.cs">
+      <DependentUpon>GeneralMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project.Designer.cs">
+      <DependentUpon>Project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProkectWorked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProkectWorked.Designer.cs">
+      <DependentUpon>ProkectWorked.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="querySelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="querySelection.Designer.cs">
+      <DependentUpon>querySelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportForm.Designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchClient.Designer.cs">
+      <DependentUpon>SearchClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDate.Designer.cs">
+      <DependentUpon>SearchDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchPayment.Designer.cs">
+      <DependentUpon>SearchPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchStatus.Designer.cs">
+      <DependentUpon>SearchStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectEmployeeForm.Designer.cs">
+      <DependentUpon>SelectEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service.Designer.cs">
+      <DependentUpon>Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeFormat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeFormat.Designer.cs">
+      <DependentUpon>TypeFormat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeProject.Designer.cs">
+      <DependentUpon>TypeProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="web.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="web.Designer.cs">
+      <DependentUpon>web.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worked.Designer.cs">
+      <DependentUpon>Worked.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AD.resx">
+      <DependentUpon>AD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Ad.resx">
+      <DependentUpon>Add_Ad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Client.resx">
+      <DependentUpon>Add_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_project.resx">
+      <DependentUpon>Add_project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Service.resx">
+      <DependentUpon>Add_Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Worked.resx">
+      <DependentUpon>Add_Worked.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="applicationsClients.resx">
+      <DependentUpon>applicationsClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client.resx">
+      <DependentUpon>Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralMenu.resx">
+      <DependentUpon>GeneralMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project.resx">
+      <DependentUpon>Project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProkectWorked.resx">
+      <DependentUpon>ProkectWorked.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="querySelection.resx">
+      <DependentUpon>querySelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchClient.resx">
+      <DependentUpon>SearchClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDate.resx">
+      <DependentUpon>SearchDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchPayment.resx">
+      <DependentUpon>SearchPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchStatus.resx">
+      <DependentUpon>SearchStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectEmployeeForm.resx">
+      <DependentUpon>SelectEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service.resx">
+      <DependentUpon>Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypeFormat.resx">
+      <DependentUpon>TypeFormat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypeProject.resx">
+      <DependentUpon>TypeProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="web.resx">
+      <DependentUpon>web.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worked.resx">
+      <DependentUpon>Worked.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="BDDataSet.xsc">
+      <DependentUpon>BDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDDataSet.xss">
+      <DependentUpon>BDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="nCoQ8McrQSCykHKaIt3w6Q %281%29.ico" />
+    <None Include="Resources\icons8-принтер-30.png" />
+    <None Include="Resources\payment-method_4639281.png" />
+    <None Include="Resources\project_5956597.png" />
+    <None Include="Resources\wish-list_7085398.png" />
+    <None Include="Resources\free-icon-file-14715895.png" />
+    <None Include="Resources\free-icon-adg-15664308.png" />
+    <None Include="Resources\free-icon-online-advertising-3748288.png" />
+    <None Include="Resources\free-icon-employee-5966879.png" />
+    <None Include="Resources\free-icon-client-6009897.png" />
+    <None Include="Resources\free-icon-search-3495620.png" />
+    <None Include="Resources\free-icon-refresh-7949464.png" />
+    <None Include="Resources\free-icon-delete-button-5676066.png" />
+    <None Include="Resources\free-icon-delete-button-5676146.png" />
+    <None Include="Resources\eQFWWPmxTde9eKBENsmc1A.jpg" />
+    <None Include="Resources\nCoQ8McrQSCykHKaIt3w6Q.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Web.WebView2.1.0.2849.39\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.2849.39\build\Microsoft.Web.WebView2.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.2849.39\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.2849.39\build\Microsoft.Web.WebView2.targets'))" />
+  </Target>
+</Project>
